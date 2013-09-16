@@ -1,0 +1,34 @@
+
+.stepcarousel {
+	margin:0px auto;
+	position: relative; /*leave this value alone*/
+	border: 10px solid black;
+	overflow: scroll; /*leave this value alone*/
+	width: 920px; /*Width of Carousel Viewer itself*/
+	height: 290px; /*Height should enough to fit largest content's height*/
+}
+
+.stepcarousel .belt {
+	position: absolute; /*leave this value alone*/
+	left: 0;
+	top: 0;
+}
+
+.stepcarousel .panel {
+	float: left; /*leave this value alone*/
+	overflow: hidden;
+	/*clip content that go outside dimensions of holding panel DIV*/
+	margin: 10px; /*margin around each panel*/
+	width: 900px;
+	/*Width of each panel holding each content. If removed, widths should be individually defined on each content DIV then. */
+}
+
+#championship{
+	font-size:40px;
+}
+
+
+#slidermain{
+	font-size:30px;
+	
+}

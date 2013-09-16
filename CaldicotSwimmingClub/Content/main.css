@@ -1,0 +1,91 @@
+@CHARSET "ISO-8859-1";
+
+
+* {
+	
+	font-family: century gothic;
+	color: red;
+}
+
+
+body {
+	text-align: left;
+	background-color: #CCCCCC;
+}
+	
+#searchbar{
+	float:right
+}
+
+
+
+#wrapper {
+	background-color: #FFFFFF;
+	width: 1000px;
+	
+	margin: 0px auto;
+	padding: 30px;
+	padding-bottom: 10px;
+	border: 0px solid black;
+	
+
+}
+
+#space{padding-left:150px;
+
+}
+span#title{
+	font-size:55px;
+}
+.contact{
+	color:red;
+}
+table#full{
+	width:100%;
+}
+
+table#sessions{
+	border: 1px solid rgba(0,0,0,0.2)
+}
+
+tr#o{
+	background-color:rgba(0,0,0,0.2);
+}
+
+td{
+	padding:10px;
+	
+}
+
+#centre{
+	text-align:center;
+}
+
+table{
+	padding: 0px;
+	margin: 0px;
+}
+
+
+#main {
+	
+	background-color: rgba(0,0,0,0.2);
+	float: left;
+	display:inline;
+	margin: 0px;
+	margin-left:0px;
+	padding: 0px;
+	font-size:20px;
+	width:100%;
+	color:black;
+	/*border-radius: 20px;*/
+}
+
+/*
+
+#footer {
+	clear: both;
+	padding: 5px;
+	border-top: 2px solid white;
+	width: 100%;
+}*/

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Caldicot Swimming Club</title>
+
+<link rel="stylesheet" href="../main.css" />
+<link rel="stylesheet" href="../navbar.css" />
+<link href="folly.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+<script type="text/javascript" src="email_search.js"></script>
+<script type="text/javascript" src="age_limits.js"></script>
+
+<style type="text/css">
+
+
+#search_bar{
+padding:20px;
+background-color:#ccc;
+margin:10px;
+float:none;
+display:block;
+}
+
+#tick_boxes{
+padding:20px;
+background-color:#ccc;
+float:left;
+margin:10px;
+}
+
+.button{
+margin:10px;
+}
+</style>
+
+</head>
+<body>
+	<div id="wrapper">
+		<br>
+		<header>
+
+			<table>
+				<tr>
+					<td><img alt="" src="../media/logo.jpg"></td>
+					<td><span id="title">Caldicot Swimming Club</span></td>
+				</tr>
+			</table>
+
+
+		</header>
+		<br> <br>
+
+		<nav>
+			<ul id="nav">
+				<li><a href="../">Home</a></li>
+				<li><a href="#">Get Addresses</a></li>
+				<li><a href="email_add.php">Add Addresses</a></li>
+			</ul>
+		</nav>
+
+		<br> <br> <br>
+
+
+			<div id="box">
+				<form>
+					<div id="tick_boxes">
+					Type to search by name or content
+					<input type="text" id="search_term" size="40"/><br>
+					</div>
+					
+					<div id="tick_boxes">
+						<strong>Age Limits |</strong>
+						 Lower:<input type="text" size="4" id="lower" value="0"/>
+						Upper:<input type="text" size="4"id="upper"value="100"/><br>
+					</div>
+					
+					<div id="tick_boxes">
+						<strong>Gender |</strong>
+						male <input type="checkbox" name-"gender" value="m" id="m" checked/>
+						female <input type="checkbox" name-"gender" value="f" id="f" checked/>
+					</div>
+					
+					<div id="tick_boxes">
+						<strong>Section |</strong>
+						Beginners <input type="checkbox" name="food" value="b"  id="b" checked/>
+						Main <input type="checkbox" name="food" value="s"  id="s" checked/>
+						Masters<input type="checkbox" name="food" value="o"  id="o" checked/>
+						Committee<input type="checkbox" name="food" value="c"  id="c" checked/>
+					</div>
+								<br><br><br><br><br><br><br><br>		
+					
+					
+					
+					
+					<input class="button" type="button" value="Search" id="go">
+					<br/>
+					<br/>
+					
+					
+					
+					
+				</form>
+				<br>
+			</div>
+			<div id="results" >
+			
+			</div>
+
+
+
+	</div>
+
+</body>
+</html>
